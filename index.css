@@ -1,0 +1,77 @@
+ .avatar {
+  text-align:center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+img {
+    border: 5px solid #555;
+  }
+  .profile {
+background-color: #555;
+padding: 10px;
+  }
+  .name {
+        background-color: rgb(204, 218, 10);
+        width: 300px;
+        border: 5px solid green;
+        padding: 10px;
+        margin: auto;
+        border-radius: 10px;
+        position: relative;
+        top: -55px;
+        box-sizing:border-box ;
+     }
+     h1 {
+         text-align: center;
+     }
+     .sri {
+        background-color: #555;
+        position: relative;
+        top: -5px;
+     }
+     * {
+        box-sizing: border-box;
+      }
+      
+      /* Create two equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .container {
+        width: 100%;
+        background-color: #ddd;
+      }
+      
+      .skills {
+        text-align: right;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+      }
+      
+      .html {width: 50%; background-color: #4CAF50;}
+      .css {width: 50%; background-color: #2196F3;}
+      .js {width: 65%; background-color: #f44336;}
+     .jo {
+      border: 5px solid green;
+      text-align: center;
+     }
+
+    
+      
+    
